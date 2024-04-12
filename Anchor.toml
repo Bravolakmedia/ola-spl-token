@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.devnet]
+ola_spl_token = "3yv7iDUkjeKhitxDYx6RuZZWMnSVraR7ATzRTBNy784i"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "https://snowy-proud-putty.solana-devnet.quiknode.pro/18c81bb0b38ff6df7cf66ece740d24346b3c83d7/"
+wallet = "/home/bravolak/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
