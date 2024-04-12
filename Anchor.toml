@@ -5,7 +5,7 @@ seeds = false
 skip-lint = false
 
 [programs.devnet]
-ola_spl_token = "3yv7iDUkjeKhitxDYx6RuZZWMnSVraR7ATzRTBNy784i"
+ola_spl_token = "myKey"
 
 [registry]
 url = "https://api.apr.dev"
